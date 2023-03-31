@@ -50,6 +50,8 @@ class KafkaTagsClusterMetrics {
             taggedTopicNames.forEach {
                 val topicReceivedBytes = topicMetric("received_bytes", it)
                 System.err.println("$accountTag received_bytes $topicReceivedBytes")
+                val retainedBytes = topicMetric("retained_bytes", it)
+                System.err.println("$accountTag retained_bytes $retainedBytes")
             }
         }
     }

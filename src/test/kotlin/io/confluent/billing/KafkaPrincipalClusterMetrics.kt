@@ -36,7 +36,6 @@ private val totalMetricRequest = """
 """.trimIndent()
 
 class KafkaPrincipalClusterMetrics {
-    //https://docs.confluent.io/cloud/current/monitoring/cluster-load-metric.html#details-about-cluster-load
     //https://docs.confluent.io/cloud/current/billing/overview.html#billing-dimensions
     // metrics for kafka cluster
     // https://api.telemetry.confluent.cloud/docs/descriptors/datasets/cloud
